@@ -49,7 +49,7 @@ steps:
   args:
   - '-c'
   - |
-    git clone https:smelukote:S3cret@1234!@github.com/smelukote/hello-cloudbuild-env.git && \
+    git clone https://smelukote:S3cret@1234!@github.com/smelukote/hello-cloudbuild-env.git && \
     cd hello-cloudbuild-env && \
     git checkout candidate && \
     git config user.email "smelukote@gmail.com"
