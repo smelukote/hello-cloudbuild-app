@@ -73,6 +73,7 @@ steps:
     cd hello-cloudbuild-env && \
     git add kubernetes.yaml && \
     git commit -m "Deploying image gcr.io/${PROJECT_ID}/hello-cloudbuild:${SHORT_SHA}
-    Built from commit ${COMMIT_SHA} of repository hello-cloudbuild-app"
+    Built from commit ${COMMIT_SHA} of repository hello-cloudbuild-app
+    git config user.email "smelukote@gmail.com"
     git push origin candidate
 # [END cloudbuild-trigger-cd]
